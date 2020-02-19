@@ -4,4 +4,4 @@ python:
 
 # command to run tests
 script:
- - python -m unittest Test_API_Data
+ - python -m unittest Test_HW_04a_Zephyr_Zambrano
