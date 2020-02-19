@@ -19,12 +19,7 @@ class Test_API_Data(unittest.TestCase):
     def test_get_repo_data(self):
         """ Tests get_repo_data """
         user = "zephyrzambrano"
-        repo_list = ['567-HelloWorld', 'Advanced-Web-Design-Final-Project',
-        'Advanced-Web-Design-Lab-1b', 'Advanced-Web-Design-Lab-3b', 'Advanced-Web-Design-Lab-4b',
-        'Advanced-Web-Design-Lab-5', 'Advanced-Web-Design-Lab-6', 'Advanced-Web-Design-Lab-7',
-        'Advanced-Web-Design-Lab-8', 'ApplePicker', 'FA18-MissionDemolition', 'GameDesign-FinalProject',
-        'GameDesign-Terrain', 'OOP-GroupProject', 'Prospector', 'Roll-a-Ball', 'RU-Safe', 'Space-SHMUP',
-        'SSW-567-HW-01', 'SSW-567-HW-02', 'SSW-567-HW-04a', 'SSW-810-Project', 'Web-Design-Project']
+        repo_list = ['567-HelloWorld', 'Advanced-Web-Design-Final-Project', 'Advanced-Web-Design-Lab-1b', 'Advanced-Web-Design-Lab-3b', 'Advanced-Web-Design-Lab-4b', 'Advanced-Web-Design-Lab-5', 'Advanced-Web-Design-Lab-6', 'Advanced-Web-Design-Lab-7', 'Advanced-Web-Design-Lab-8', 'ApplePicker', 'FA18-MissionDemolition', 'GameDesign-FinalProject', 'GameDesign-Terrain', 'OOP-GroupProject', 'Prospector', 'Roll-a-Ball', 'RU-Safe', 'Space-SHMUP', 'SSW-567-HW-01', 'SSW-567-HW-02', 'SSW-567-HW-04a', 'SSW-567-HW-05', 'SSW-810-Project', 'Web-Design-Project']
 
         self.assertEqual(repo_list, get_repo_data(user))
 
