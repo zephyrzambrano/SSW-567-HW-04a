@@ -1,5 +1,5 @@
 """
-Homework 04a - Develop with the Perspective of the Tester in mind
+Homework 05a - Isolate External Dependencies
 Zephyr Zambrano
 
 """
@@ -74,6 +74,7 @@ def get_commit_data(user, repo):
 def main():
     """ Gets repository and commit data from a specific GitHub user,
     and prints this data to the user. """
+
     print("Please enter a GitHub ID: \n")
     i = get_input("Enter text: ")
     print()
